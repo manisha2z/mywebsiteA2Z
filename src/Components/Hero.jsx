@@ -72,7 +72,7 @@ const Hero = () => (
                                 </Link>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-8 mt-2 sm:mt-4 justify-center text-white text-sm sm:text-base mb-4 sm:mb-6">
-                             f   <div className="flex items-center gap-2 justify-center">
+                                <div className="flex items-center gap-2 justify-center">
                                     <FaTools className="text-indigo-500 text-lg sm:text-xl" />
                                     <span>Expert Technicians</span>
                                 </div>
