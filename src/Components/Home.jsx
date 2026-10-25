@@ -10,9 +10,13 @@ import {
     FaCheckCircle, FaClock, FaMapMarkerAlt, FaWhatsapp,
     FaSnowflake, FaFire, FaTv, FaWater, FaWrench
 } from "react-icons/fa";
-import service1 from "../assets/optimized/carousel1.webp";
-import service2 from "../assets/optimized/carousel2.webp";
-import service3 from "../assets/optimized/carousel3.webp";
+import carousel1 from "../assets/optimized/carousel1.webp";
+import carousel2 from "../assets/optimized/carousel2.webp";
+import carousel3 from "../assets/optimized/carousel3.webp";
+     
+import service1 from "../assets/optimized/ACservice.png";
+import service2 from "../assets/optimized/geyserservice.png";
+import service3 from "../assets/optimized/CCTVService.png";
 import { Link } from "react-router-dom";
 import Footer from './Footer';
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -20,17 +24,17 @@ import { motion } from "framer-motion";
 
 const slides = [
     {
-        image: service1,
+        image: carousel1,
         title: "Hassle-Free Repairs, Anytime, Anywhere",
         text: "Book skilled technicians in just a few clicks and get your appliances running smoothly again."
     },
     {
-        image: service2,
+        image: carousel2,
         title: "Your Trusted Repair Partner",
         text: "We fix it right the first time! Certified technicians, transparent pricing, and guaranteed satisfaction."
     },
     {
-        image: service3,
+        image: carousel3,
         title: "One Stop Solution for All Repairs",
         text: "Get professional services for AC, fridge, geyser, CCTV, and more — all under one roof."
     }
