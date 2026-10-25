@@ -123,7 +123,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Chat on WhatsApp"
-                            className="block p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 animate-pulse-slow"
+                            className="block p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 animate-bounce"
                         >
                             <FaWhatsapp className="text-white text-3xl" />
                         </a>
@@ -133,7 +133,7 @@ const Footer = () => {
                         <a
                             href="tel:9251288005"
                             aria-label="Call Us Now"
-                            className="block p-3 bg-indigo-500 rounded-full shadow-lg hover:bg-indigo-600 transition-all duration-300 animate-pulse-slow"
+                            className="block p-3 bg-indigo-500 rounded-full shadow-lg hover:bg-indigo-600 transition-all duration-300 animate-bounce"
                         >
                             <FaPhone className="text-white text-3xl" />
                         </a>
@@ -151,3 +151,9 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
